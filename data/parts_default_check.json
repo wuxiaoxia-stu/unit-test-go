@@ -1,0 +1,27 @@
+[
+        {"name": "国家级早孕产筛",   "type":1, "level": 100, "check_type": 0, "sort":0,  "default": ["SP112", "SP100", "SP109", "SP113"]},
+        {"name": "专家级早孕产筛",   "type":1, "level": 200, "check_type": 0, "sort":5,  "default": ["SP112", "SP100", "SP109", "SP105", "SP101", "SP113", "SP110", "SP111"]},
+        {"name": "早孕产筛",        "type":1, "level": 1,   "check_type": 0, "sort":10,  "default": ["SP112","SP100","SP109", "SP105", "SP106", "SP104", "SP101", "SP110", "SP111", "SP107"]},
+
+        {"name": "国家级中晚孕产筛",  "type":1, "level": 100, "check_type": 1, "sort":25,  "default": ["SP1","SP2","SP3", "SP4", "SP26", "SP18", "SP19", "SP7", "SP8", "SP9", "SP11", "SP12", "SP34", "SP14", "SP20", "SP22", "SP27", "SP23", "SP28"]},
+        {"name": "专家级中晚孕产筛",  "type":1, "level": 200, "check_type": 1, "sort":30,  "default": ["SP1","SP2","SP3", "SP4",  "SP6", "SP26", "SP18", "SP19", "SP7", "SP8", "SP9", "SP11", "SP12", "SP34", "SP14", "SP20", "SP22", "SP27", "SP23", "SP28", "SP32", "SP33", "SP30", "SP31"]},
+        {"name": "一级中晚孕产筛",   "type":1, "level": 1,   "check_type": 1, "sort":35,  "default": ["SP1", "SP7", "SP12", "SP23"]},
+        {"name": "二级中晚孕产筛",   "type":1, "level": 2,   "check_type": 1, "sort":40,  "default": ["SP2","SP1", "SP3", "SP26", "SP4", "SP7", "SP8", "SP9", "SP10", "SP11", "SP12", "SP14", "SP20", "SP18", "SP19", "SP22", "SP27", "SP23", "SP28"]},
+        {"name": "三级中晚孕产筛",   "type":1, "level": 3,   "check_type": 1, "sort":45,  "default": ["SP2","SP1","SP3", "SP26", "SP6", "SP4", "SP7", "SP8", "SP9", "SP10", "SP11", "SP32", "SP33", "SP12", "SP14", "SP20", "SP18", "SP19", "SP22", "SP27", "SP23", "SP28", "SP24", "SP25", "SP30", "SP31"]},
+
+
+
+        {"name": "国家级早孕产筛", "type":2, "level": 100, "check_type": 0, "sort":0, "default": ["SP112", "SP100", "SP109", "SP113"]},
+        {"name": "专家级早孕产筛", "type":2, "level": 200, "check_type": 0, "sort":5,  "default": ["SP112", "SP100", "SP109", "SP105", "SP101", "SP113", "SP110", "SP111"]},
+        {"name": "早孕产筛",      "type":2, "level": 1,   "check_type": 0, "sort":10,  "default": ["SP112","SP100","SP109", "SP105", "SP106", "SP104", "SP101", "SP110", "SP111", "SP107"]},
+
+        {"name": "国家级中孕产筛", "type":2, "level": 100, "check_type": 1, "sort":15,  "default": ["SP1","SP2","SP3", "SP4", "SP26", "SP18", "SP19", "SP7", "SP8", "SP9", "SP11", "SP12", "SP34", "SP14", "SP20", "SP22", "SP27", "SP23", "SP28"]},
+        {"name": "专家级中孕产筛", "type":2, "level": 200, "check_type": 1, "sort":20,  "default": ["SP1","SP2","SP3", "SP4",  "SP6", "SP26", "SP18", "SP19", "SP7", "SP8", "SP9", "SP11", "SP12", "SP14", "SP20", "SP22", "SP27", "SP23", "SP28", "SP32", "SP33", "SP34", "SP30", "SP31"]},
+        {"name": "一级中孕产筛",   "type":2, "level": 1,   "check_type": 1, "sort":25,  "default": ["SP1", "SP7", "SP12", "SP23"]},
+        {"name": "二级中孕产筛",   "type":2, "level": 2,   "check_type": 1, "sort":30,  "default": ["SP2","SP1", "SP3", "SP26", "SP4", "SP7", "SP8", "SP9", "SP10", "SP11", "SP12", "SP14", "SP20", "SP18", "SP19", "SP22", "SP27", "SP23", "SP28"]},
+        {"name": "三级中孕产筛",   "type":2, "level": 3,   "check_type": 1, "sort":40,  "default": ["SP2","SP1","SP3", "SP26", "SP6", "SP4", "SP7", "SP8", "SP9", "SP10", "SP11", "SP32", "SP33", "SP12", "SP14", "SP20", "SP18", "SP19", "SP22", "SP27", "SP23", "SP28", "SP24", "SP25", "SP30", "SP31"]},
+
+        {"name": "一级晚孕产筛",   "type":2, "level": 1,   "check_type": 2, "sort":45,  "default": ["SP1", "SP7", "SP12", "SP23"]},
+        {"name": "二级晚孕产筛",   "type":2, "level": 2,   "check_type": 2, "sort":50,  "default": ["SP2","SP1", "SP3", "SP26", "SP4", "SP7", "SP8", "SP9", "SP10", "SP11", "SP12", "SP14", "SP20", "SP18", "SP19", "SP22", "SP27", "SP23", "SP28"]},
+        {"name": "三级晚孕产筛",   "type":2, "level": 3,   "check_type": 2, "sort":60,  "default": ["SP2","SP1","SP3", "SP26", "SP6", "SP4", "SP7", "SP8", "SP9", "SP10", "SP11", "SP32", "SP33", "SP12", "SP14", "SP20", "SP18", "SP19", "SP22", "SP27", "SP23", "SP28", "SP24", "SP25", "SP30", "SP31"]}
+]

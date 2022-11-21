@@ -1,0 +1,1227 @@
+{
+	"plane": {
+		"0": [
+			{
+				"plane_id": "SP112",
+				"plane_name_ch": "胎儿正中矢状切面",
+				"plane_name_en": "FT-CRL-Plane"
+			},
+			{
+				"plane_id": "SP109",
+				"plane_name_ch": "经侧脑室横切面",
+				"plane_name_en": "FT-Transventricular-Plane"
+			},
+			{
+				"plane_id": "SP100",
+				"plane_name_ch": "颈项透明层（NT）测量切面",
+				"plane_name_en": "FT-NT-Plane"
+			},
+			{
+				"plane_id": "SP105",
+				"plane_name_ch": "心脏四腔心（血流）切面",
+				"plane_name_en": "FT-4CH-Plane"
+			},
+			{
+				"plane_id": "SP106",
+				"plane_name_ch": "心脏三血管（血流）切面",
+				"plane_name_en": "FT-3VT-Plane"
+			},
+			{
+				"plane_id": "SP108",
+				"plane_name_ch": "三尖瓣多普勒",
+				"plane_name_en": "FT-TV-Doppler"
+			},
+			{
+				"plane_id": "SP101",
+				"plane_name_ch": "腹部横切面",
+				"plane_name_en": "FT-Abdomen-Plane"
+			},
+			{
+				"plane_id": "SP113",
+				"plane_name_ch": "脐带腹壁入口横切面",
+				"plane_name_en": "FT-Umbilical-Cord-Abdomen-Insertion-Plane"
+			},
+			{
+				"plane_id": "SP107",
+				"plane_name_ch": "静脉导管多普勒",
+				"plane_name_en": "FT-DV-Doppler"
+			},
+			{
+				"plane_id": "SP104",
+				"plane_name_ch": "膀胱水平横切面及双侧脐动脉",
+				"plane_name_en": "FT-Bladder-UA-Plane"
+			},
+			{
+				"plane_id": "SP110",
+				"plane_name_ch": "双上肢长轴切面",
+				"plane_name_en": "FT-Upper-Limb-Plane"
+			},
+			{
+				"plane_id": "SP111",
+				"plane_name_ch": "双下肢长轴切面",
+				"plane_name_en": "FT-Lower-Limb-Plane"
+			}
+		],
+		"1": [
+			{
+				"plane_id": "SP2",
+				"plane_name_ch": "经侧脑室横切面",
+				"plane_name_en": "Transventricular-Plane"
+			},
+			{
+				"plane_id": "SP1",
+				"plane_name_ch": "经丘脑横切面",
+				"plane_name_en": "Transthalamic-Plane"
+			},
+			{
+				"plane_id": "SP3",
+				"plane_name_ch": "经小脑横切面",
+				"plane_name_en": "Transcerebellar-Plane"
+			},
+			{
+				"plane_id": "SP4",
+				"plane_name_ch": "双眼球横切面",
+				"plane_name_en": "Orbit-Plane"
+			},
+			{
+				"plane_id": "SP5",
+				"plane_name_ch": "头颅正中矢状切面",
+				"plane_name_en": "Head-Midsagittal-Plane"
+			},
+			{
+				"plane_id": "SP6",
+				"plane_name_ch": "颜面正中矢状切面",
+				"plane_name_en": "Face-Midsagittal-Plane"
+			},
+			{
+				"plane_id": "SP26",
+				"plane_name_ch": "鼻唇冠状切面",
+				"plane_name_en": "Nose-Lips-Coronal-Plane"
+			},
+			{
+				"plane_id": "SP7",
+				"plane_name_ch": "四腔心切面",
+				"plane_name_en": "4CH-Plane"
+			},
+			{
+				"plane_id": "SP8",
+				"plane_name_ch": "左心室流出道切面",
+				"plane_name_en": "LVOT-Plane"
+			},
+			{
+				"plane_id": "SP9",
+				"plane_name_ch": "右心室流出道切面",
+				"plane_name_en": "RVOT-Plane"
+			},
+			{
+				"plane_id": "SP10",
+				"plane_name_ch": "左右肺动脉分叉切面",
+				"plane_name_en": "L-R-PA-Plane"
+			},
+			{
+				"plane_id": "SP11",
+				"plane_name_ch": "三血管气管切面",
+				"plane_name_en": "3VT-Plane"
+			},
+			{
+				"plane_id": "SP12",
+				"plane_name_ch": "腹围横切面",
+				"plane_name_en": "Abdomen-Plane"
+			},
+			{
+				"plane_id": "SP13",
+				"plane_name_ch": "胆囊+脐静脉切面",
+				"plane_name_en": "GBUV-Plane"
+			},
+			{
+				"plane_id": "SP14",
+				"plane_name_ch": "双肾水平横切面",
+				"plane_name_en": "Kidney-Transverse-Plane"
+			},
+			{
+				"plane_id": "SP17",
+				"plane_name_ch": "肾脏长轴切面",
+				"plane_name_en": "Kidney-Longitudinal-Plane"
+			},
+			{
+				"plane_id": "SP32",
+				"plane_name_ch": "左侧胸腔矢状切面",
+				"plane_name_en": "L-Chest-Sagittal-Plane"
+			},
+			{
+				"plane_id": "SP33",
+				"plane_name_ch": "右侧胸腔矢状切面",
+				"plane_name_en": "R-Chest-Sagittal-Plane"
+			},
+			{
+				"plane_id": "SP18",
+				"plane_name_ch": "颈胸段脊柱矢状切面",
+				"plane_name_en": "Spine-Neck-Chest-Sagittal-Plane"
+			},
+			{
+				"plane_id": "SP19",
+				"plane_name_ch": "脊髓圆锥定位切面",
+				"plane_name_en": "Conus-Medullaris-Plane"
+			},
+			{
+				"plane_id": "SP20",
+				"plane_name_ch": "膀胱水平横切面及双侧脐动脉",
+				"plane_name_en": "Bladder-UA-Plane"
+			},
+			{
+				"plane_id": "SP22",
+				"plane_name_ch": "肱骨长轴切面（双侧）",
+				"plane_name_en": "HL-Plane"
+			},
+			{
+				"plane_id": "SP23",
+				"plane_name_ch": "股骨长轴切面（双侧）",
+				"plane_name_en": "FL-Plane"
+			},
+			{
+				"plane_id": "SP27",
+				"plane_name_ch": "尺桡骨长轴切面（双侧）",
+				"plane_name_en": "Ulna-Radius-Length-Plane"
+			},
+			{
+				"plane_id": "SP28",
+				"plane_name_ch": "胫腓骨长轴切面（双侧）",
+				"plane_name_en": "Tibia-Fibula-Length-Plane"
+			},
+			{
+				"plane_id": "SP24",
+				"plane_name_ch": "双手切面",
+				"plane_name_en": "Hand-Plane"
+			},
+			{
+				"plane_id": "SP25",
+				"plane_name_ch": "双足切面",
+				"plane_name_en": "Foot-Plane"
+			},
+			{
+				"plane_id": "SP29",
+				"plane_name_ch": "脐动脉多普勒",
+				"plane_name_en": "UA-Doppler"
+			},
+			{
+				"plane_id": "SP30",
+				"plane_name_ch": "宫颈及宫颈内口切面",
+				"plane_name_en": "Cervix-Internal-Os-Plane"
+			},
+			{
+				"plane_id": "SP31",
+				"plane_name_ch": "脐带胎盘附着切面",
+				"plane_name_en": "Umbilical-Cord-Placenta-Insertion-Plane"
+			},
+			{
+				"plane_id": "SP39",
+				"plane_name_ch": "无名静脉纵切面",
+				"plane_name_en": "SP-Innominate-Vein-Sagittal-Plane"
+			},
+			{
+				"plane_id": "SP38",
+				"plane_name_ch": "上颌骨横切面",
+				"plane_name_en": "Maxilla-Axial-Plane"
+			},
+			{
+				"plane_id": "SP37",
+				"plane_name_ch": "双肾冠状切及肾动脉彩超切面",
+				"plane_name_en": "Kidney-Coronal-Renal-Artery-Plane"
+			},
+			{
+				"plane_id": "SP36",
+				"plane_name_ch": "耳朵切面（双侧）",
+				"plane_name_en": "Ear-Plane"
+			},
+			{
+				"plane_id": "SP21",
+				"plane_name_ch": "肛门切面",
+				"plane_name_en": "Anus-Plane"
+			},
+			{
+				"plane_id": "SP35",
+				"plane_name_ch": "上下腔静脉汇入右心房矢状切面",
+				"plane_name_en": "SVC-IVC-RA-Plane"
+			},
+			{
+				"plane_id": "SP15",
+				"plane_name_ch": "主动脉弓纵切面",
+				"plane_name_en": "AA-Longitudinal-Plane"
+			},
+			{
+				"plane_id": "SP16",
+				"plane_name_ch": "动脉导管弓纵切面",
+				"plane_name_en": "DA-Longitudinal-Plane"
+			},
+			{
+				"plane_id": "SP34",
+				"plane_name_ch": "脐带腹壁入口切面",
+				"plane_name_en": "Umbilical-Cord-Abdomen-Insertion-Plane"
+			}
+		],
+		"2": [
+			{
+				"plane_id": "SP2",
+				"plane_name_ch": "经侧脑室横切面",
+				"plane_name_en": "Transventricular-Plane"
+			},
+			{
+				"plane_id": "SP1",
+				"plane_name_ch": "经丘脑横切面",
+				"plane_name_en": "Transthalamic-Plane"
+			},
+			{
+				"plane_id": "SP3",
+				"plane_name_ch": "经小脑横切面",
+				"plane_name_en": "Transcerebellar-Plane"
+			},
+			{
+				"plane_id": "SP4",
+				"plane_name_ch": "双眼球横切面",
+				"plane_name_en": "Orbit-Plane"
+			},
+			{
+				"plane_id": "SP5",
+				"plane_name_ch": "头颅正中矢状切面",
+				"plane_name_en": "Head-Midsagittal-Plane"
+			},
+			{
+				"plane_id": "SP6",
+				"plane_name_ch": "颜面正中矢状切面",
+				"plane_name_en": "Face-Midsagittal-Plane"
+			},
+			{
+				"plane_id": "SP26",
+				"plane_name_ch": "鼻唇冠状切面",
+				"plane_name_en": "Nose-Lips-Coronal-Plane"
+			},
+			{
+				"plane_id": "SP7",
+				"plane_name_ch": "四腔心切面",
+				"plane_name_en": "4CH-Plane"
+			},
+			{
+				"plane_id": "SP8",
+				"plane_name_ch": "左心室流出道切面",
+				"plane_name_en": "LVOT-Plane"
+			},
+			{
+				"plane_id": "SP9",
+				"plane_name_ch": "右心室流出道切面",
+				"plane_name_en": "RVOT-Plane"
+			},
+			{
+				"plane_id": "SP10",
+				"plane_name_ch": "左右肺动脉分叉切面",
+				"plane_name_en": "L-R-PA-Plane"
+			},
+			{
+				"plane_id": "SP11",
+				"plane_name_ch": "三血管气管切面",
+				"plane_name_en": "3VT-Plane"
+			},
+			{
+				"plane_id": "SP12",
+				"plane_name_ch": "腹围横切面",
+				"plane_name_en": "Abdomen-Plane"
+			},
+			{
+				"plane_id": "SP13",
+				"plane_name_ch": "胆囊+脐静脉切面",
+				"plane_name_en": "GBUV-Plane"
+			},
+			{
+				"plane_id": "SP14",
+				"plane_name_ch": "双肾水平横切面",
+				"plane_name_en": "Kidney-Transverse-Plane"
+			},
+			{
+				"plane_id": "SP17",
+				"plane_name_ch": "肾脏长轴切面",
+				"plane_name_en": "Kidney-Longitudinal-Plane"
+			},
+			{
+				"plane_id": "SP32",
+				"plane_name_ch": "左侧胸腔矢状切面",
+				"plane_name_en": "L-Chest-Sagittal-Plane"
+			},
+			{
+				"plane_id": "SP33",
+				"plane_name_ch": "右侧胸腔矢状切面",
+				"plane_name_en": "R-Chest-Sagittal-Plane"
+			},
+			{
+				"plane_id": "SP18",
+				"plane_name_ch": "颈胸段脊柱矢状切面",
+				"plane_name_en": "Spine-Neck-Chest-Sagittal-Plane"
+			},
+			{
+				"plane_id": "SP19",
+				"plane_name_ch": "脊髓圆锥定位切面",
+				"plane_name_en": "Conus-Medullaris-Plane"
+			},
+			{
+				"plane_id": "SP20",
+				"plane_name_ch": "膀胱水平横切面及双侧脐动脉",
+				"plane_name_en": "Bladder-UA-Plane"
+			},
+			{
+				"plane_id": "SP22",
+				"plane_name_ch": "肱骨长轴切面（双侧）",
+				"plane_name_en": "HL-Plane"
+			},
+			{
+				"plane_id": "SP23",
+				"plane_name_ch": "股骨长轴切面（双侧）",
+				"plane_name_en": "FL-Plane"
+			},
+			{
+				"plane_id": "SP27",
+				"plane_name_ch": "尺桡骨长轴切面（双侧）",
+				"plane_name_en": "Ulna-Radius-Length-Plane"
+			},
+			{
+				"plane_id": "SP28",
+				"plane_name_ch": "胫腓骨长轴切面（双侧）",
+				"plane_name_en": "Tibia-Fibula-Length-Plane"
+			},
+			{
+				"plane_id": "SP24",
+				"plane_name_ch": "双手切面",
+				"plane_name_en": "Hand-Plane"
+			},
+			{
+				"plane_id": "SP25",
+				"plane_name_ch": "双足切面",
+				"plane_name_en": "Foot-Plane"
+			},
+			{
+				"plane_id": "SP29",
+				"plane_name_ch": "脐动脉多普勒",
+				"plane_name_en": "UA-Doppler"
+			},
+			{
+				"plane_id": "SP30",
+				"plane_name_ch": "宫颈及宫颈内口切面",
+				"plane_name_en": "Cervix-Internal-Os-Plane"
+			},
+			{
+				"plane_id": "SP31",
+				"plane_name_ch": "脐带胎盘附着切面",
+				"plane_name_en": "Umbilical-Cord-Placenta-Insertion-Plane"
+			},
+			{
+				"plane_id": "SP39",
+				"plane_name_ch": "无名静脉纵切面",
+				"plane_name_en": "SP-Innominate-Vein-Sagittal-Plane"
+			},
+			{
+				"plane_id": "SP38",
+				"plane_name_ch": "上颌骨横切面",
+				"plane_name_en": "Maxilla-Axial-Plane"
+			},
+			{
+				"plane_id": "SP37",
+				"plane_name_ch": "双肾冠状切及肾动脉彩超切面",
+				"plane_name_en": "Kidney-Coronal-Renal-Artery-Plane"
+			},
+			{
+				"plane_id": "SP36",
+				"plane_name_ch": "耳朵切面（双侧）",
+				"plane_name_en": "Ear-Plane"
+			},
+			{
+				"plane_id": "SP21",
+				"plane_name_ch": "肛门切面",
+				"plane_name_en": "Anus-Plane"
+			},
+			{
+				"plane_id": "SP35",
+				"plane_name_ch": "上下腔静脉汇入右心房矢状切面",
+				"plane_name_en": "SVC-IVC-RA-Plane"
+			},
+			{
+				"plane_id": "SP15",
+				"plane_name_ch": "主动脉弓纵切面",
+				"plane_name_en": "AA-Longitudinal-Plane"
+			},
+			{
+				"plane_id": "SP16",
+				"plane_name_ch": "动脉导管弓纵切面",
+				"plane_name_en": "DA-Longitudinal-Plane"
+			},
+			{
+				"plane_id": "SP34",
+				"plane_name_ch": "脐带腹壁入口切面",
+				"plane_name_en": "Umbilical-Cord-Abdomen-Insertion-Plane"
+			}
+		]
+	},
+	"qc_plane": {
+		"0": [
+			{
+				"plane_id": "SP112",
+				"plane_name_ch": "胎儿正中矢状切面",
+				"plane_name_en": "FT-CRL-Plane"
+			},
+			{
+				"plane_id": "SP100",
+				"plane_name_ch": "颈项透明层（NT）测量切面",
+				"plane_name_en": "FT-NT-Plane"
+			},
+			{
+				"plane_id": "SP109",
+				"plane_name_ch": "经侧脑室横切面",
+				"plane_name_en": "FT-Transventricular-Plane"
+			},
+			{
+				"plane_id": "SP105",
+				"plane_name_ch": "四腔心彩超切面",
+				"plane_name_en": "FT-4CH-Plane"
+			},
+			{
+				"plane_id": "SP106",
+				"plane_name_ch": "三血管彩超切面",
+				"plane_name_en": "FT-3VT-Plane"
+			},
+			{
+				"plane_id": "SP104",
+				"plane_name_ch": "膀胱水平横切面及双侧脐动脉",
+				"plane_name_en": "FT-Bladder-UA-Plane"
+			},
+			{
+				"plane_id": "SP101",
+				"plane_name_ch": "腹部横切面",
+				"plane_name_en": "FT-Abdomen-Plane"
+			},
+			{
+				"plane_id": "SP113",
+				"plane_name_ch": "脐带腹壁入口横切面",
+				"plane_name_en": "FT-Umbilical-Cord-Abdomen-Insertion-Plane"
+			},
+			{
+				"plane_id": "SP110",
+				"plane_name_ch": "双上肢切面",
+				"plane_name_en": "FT-Upper-Limb-Plane"
+			},
+			{
+				"plane_id": "SP111",
+				"plane_name_ch": "双下肢切面",
+				"plane_name_en": "FT-Lower-Limb-Plane"
+			},
+			{
+				"plane_id": "SP107",
+				"plane_name_ch": "静脉导管多普勒",
+				"plane_name_en": "FT-DV-Doppler"
+			}
+		],
+		"1": [
+			{
+				"plane_id": "SP2",
+				"plane_name_ch": "经侧脑室横切面",
+				"plane_name_en": "Transventricular-Plane"
+			},
+			{
+				"plane_id": "SP1",
+				"plane_name_ch": "经丘脑横切面",
+				"plane_name_en": "Transthalamic-Plane"
+			},
+			{
+				"plane_id": "SP3",
+				"plane_name_ch": "经小脑横切面",
+				"plane_name_en": "Transcerebellar-Plane"
+			},
+			{
+				"plane_id": "SP26",
+				"plane_name_ch": "鼻唇冠状切面",
+				"plane_name_en": "Nose-Lips-Coronal-Plane"
+			},
+			{
+				"plane_id": "SP4",
+				"plane_name_ch": "双眼球横切面",
+				"plane_name_en": "Orbit-Plane"
+			},
+			{
+				"plane_id": "SP7",
+				"plane_name_ch": "四腔心切面",
+				"plane_name_en": "4CH-Plane"
+			},
+			{
+				"plane_id": "SP8",
+				"plane_name_ch": "左心室流出道切面",
+				"plane_name_en": "LVOT-Plane"
+			},
+			{
+				"plane_id": "SP9",
+				"plane_name_ch": "右心室流出道切面",
+				"plane_name_en": "RVOT-Plane"
+			},
+			{
+				"plane_id": "SP10",
+				"plane_name_ch": "左右肺动脉分叉切面",
+				"plane_name_en": "L-R-PA-Plane"
+			},
+			{
+				"plane_id": "SP6",
+				"plane_name_ch": "颜面正中矢状切面",
+				"plane_name_en": "Face-Midsagittal-Plane"
+			},
+			{
+				"plane_id": "SP11",
+				"plane_name_ch": "三血管气管切面",
+				"plane_name_en": "3VT-Plane"
+			},
+			{
+				"plane_id": "SP32",
+				"plane_name_ch": "左侧胸腔矢状切面",
+				"plane_name_en": "L-Chest-Sagittal-Plane"
+			},
+			{
+				"plane_id": "SP33",
+				"plane_name_ch": "右侧胸腔矢状切面",
+				"plane_name_en": "R-Chest-Sagittal-Plane"
+			},
+			{
+				"plane_id": "SP12",
+				"plane_name_ch": "腹围横切面",
+				"plane_name_en": "Abdomen-Plane"
+			},
+			{
+				"plane_id": "SP14",
+				"plane_name_ch": "双肾水平横切面",
+				"plane_name_en": "Kidney-Transverse-Plane"
+			},
+			{
+				"plane_id": "SP20",
+				"plane_name_ch": "膀胱水平横切面及双侧脐动脉",
+				"plane_name_en": "Bladder-UA-Plane"
+			},
+			{
+				"plane_id": "SP18",
+				"plane_name_ch": "颈胸段脊柱矢状切面",
+				"plane_name_en": "Spine-Neck-Chest-Sagittal-Plane"
+			},
+			{
+				"plane_id": "SP19",
+				"plane_name_ch": "脊髓圆锥定位切面",
+				"plane_name_en": "Conus-Medullaris-Plane"
+			},
+			{
+				"plane_id": "SP22",
+				"plane_name_ch": "肱骨长轴切面（双侧）",
+				"plane_name_en": "HL-Plane"
+			},
+			{
+				"plane_id": "SP27",
+				"plane_name_ch": "尺桡骨长轴切面（双侧）",
+				"plane_name_en": "Ulna-Radius-Length-Plane"
+			},
+			{
+				"plane_id": "SP23",
+				"plane_name_ch": "股骨长轴切面（双侧）",
+				"plane_name_en": "FL-Plane"
+			},
+			{
+				"plane_id": "SP28",
+				"plane_name_ch": "胫腓骨长轴切面（双侧）",
+				"plane_name_en": "Tibia-Fibula-Length-Plane"
+			},
+			{
+				"plane_id": "SP24",
+				"plane_name_ch": "双手切面",
+				"plane_name_en": "Hand-Plane"
+			},
+			{
+				"plane_id": "SP25",
+				"plane_name_ch": "双足切面",
+				"plane_name_en": "Foot-Plane"
+			},
+			{
+				"plane_id": "SP30",
+				"plane_name_ch": "宫颈及宫颈内口切面",
+				"plane_name_en": "Cervix-Internal-Os-Plane"
+			},
+			{
+				"plane_id": "SP31",
+				"plane_name_ch": "脐带胎盘附着切面",
+				"plane_name_en": "Umbilical-Cord-Placenta-Insertion-Plane"
+			},
+			{
+				"plane_id": "SP34",
+				"plane_name_ch": "脐带腹壁入口切面",
+				"plane_name_en": "Umbilical-Cord-Abdomen-Insertion-Plane"
+			}
+		],
+		"2": [
+			{
+				"plane_id": "SP2",
+				"plane_name_ch": "经侧脑室横切面",
+				"plane_name_en": "Transventricular-Plane"
+			},
+			{
+				"plane_id": "SP1",
+				"plane_name_ch": "经丘脑横切面",
+				"plane_name_en": "Transthalamic-Plane"
+			},
+			{
+				"plane_id": "SP3",
+				"plane_name_ch": "经小脑横切面",
+				"plane_name_en": "Transcerebellar-Plane"
+			},
+			{
+				"plane_id": "SP26",
+				"plane_name_ch": "鼻唇冠状切面",
+				"plane_name_en": "Nose-Lips-Coronal-Plane"
+			},
+			{
+				"plane_id": "SP4",
+				"plane_name_ch": "双眼球横切面",
+				"plane_name_en": "Orbit-Plane"
+			},
+			{
+				"plane_id": "SP7",
+				"plane_name_ch": "四腔心切面",
+				"plane_name_en": "4CH-Plane"
+			},
+			{
+				"plane_id": "SP8",
+				"plane_name_ch": "左心室流出道切面",
+				"plane_name_en": "LVOT-Plane"
+			},
+			{
+				"plane_id": "SP9",
+				"plane_name_ch": "右心室流出道切面",
+				"plane_name_en": "RVOT-Plane"
+			},
+			{
+				"plane_id": "SP10",
+				"plane_name_ch": "左右肺动脉分叉切面",
+				"plane_name_en": "L-R-PA-Plane"
+			},
+			{
+				"plane_id": "SP6",
+				"plane_name_ch": "颜面正中矢状切面",
+				"plane_name_en": "Face-Midsagittal-Plane"
+			},
+			{
+				"plane_id": "SP11",
+				"plane_name_ch": "三血管气管切面",
+				"plane_name_en": "3VT-Plane"
+			},
+			{
+				"plane_id": "SP32",
+				"plane_name_ch": "左侧胸腔矢状切面",
+				"plane_name_en": "L-Chest-Sagittal-Plane"
+			},
+			{
+				"plane_id": "SP33",
+				"plane_name_ch": "右侧胸腔矢状切面",
+				"plane_name_en": "R-Chest-Sagittal-Plane"
+			},
+			{
+				"plane_id": "SP12",
+				"plane_name_ch": "腹围横切面",
+				"plane_name_en": "Abdomen-Plane"
+			},
+			{
+				"plane_id": "SP14",
+				"plane_name_ch": "双肾水平横切面",
+				"plane_name_en": "Kidney-Transverse-Plane"
+			},
+			{
+				"plane_id": "SP20",
+				"plane_name_ch": "膀胱水平横切面及双侧脐动脉",
+				"plane_name_en": "Bladder-UA-Plane"
+			},
+			{
+				"plane_id": "SP18",
+				"plane_name_ch": "颈胸段脊柱矢状切面",
+				"plane_name_en": "Spine-Neck-Chest-Sagittal-Plane"
+			},
+			{
+				"plane_id": "SP19",
+				"plane_name_ch": "脊髓圆锥定位切面",
+				"plane_name_en": "Conus-Medullaris-Plane"
+			},
+			{
+				"plane_id": "SP22",
+				"plane_name_ch": "肱骨长轴切面（双侧）",
+				"plane_name_en": "HL-Plane"
+			},
+			{
+				"plane_id": "SP27",
+				"plane_name_ch": "尺桡骨长轴切面（双侧）",
+				"plane_name_en": "Ulna-Radius-Length-Plane"
+			},
+			{
+				"plane_id": "SP23",
+				"plane_name_ch": "股骨长轴切面（双侧）",
+				"plane_name_en": "FL-Plane"
+			},
+			{
+				"plane_id": "SP28",
+				"plane_name_ch": "胫腓骨长轴切面（双侧）",
+				"plane_name_en": "Tibia-Fibula-Length-Plane"
+			},
+			{
+				"plane_id": "SP24",
+				"plane_name_ch": "双手切面",
+				"plane_name_en": "Hand-Plane"
+			},
+			{
+				"plane_id": "SP25",
+				"plane_name_ch": "双足切面",
+				"plane_name_en": "Foot-Plane"
+			},
+			{
+				"plane_id": "SP30",
+				"plane_name_ch": "宫颈及宫颈内口切面",
+				"plane_name_en": "Cervix-Internal-Os-Plane"
+			},
+			{
+				"plane_id": "SP31",
+				"plane_name_ch": "脐带胎盘附着切面",
+				"plane_name_en": "Umbilical-Cord-Placenta-Insertion-Plane"
+			},
+			{
+				"plane_id": "SP34",
+				"plane_name_ch": "脐带腹壁入口切面",
+				"plane_name_en": "Umbilical-Cord-Abdomen-Insertion-Plane"
+			}
+		]
+	},
+	"qc_plane_group": {
+		"0": [
+			{
+				"group_hase_id": 0,
+				"group_id": "PP17",
+				"group_name_ch": "早孕头胸矢状切面",
+				"group_name_en": "FT-H-C-Sagittal-Planes",
+				"group_contain_plean": []
+			},
+			{
+				"group_hase_id": 0,
+				"group_id": "PP18",
+				"group_name_ch": "早孕腹部水平切面",
+				"group_name_en": "FT-Abdomen-Axial-Planes",
+				"group_contain_plean": [
+					0
+				]
+			},
+			{
+				"group_hase_id": 0,
+				"group_id": "PP19",
+				"group_name_ch": "早孕四肢纵切面",
+				"group_name_en": "FT-Limbs-Longitudinal-Planes",
+				"group_contain_plean": []
+			},
+			{
+				"group_hase_id": 0,
+				"group_id": "PP20",
+				"group_name_ch": "早孕盆腔水平切面",
+				"group_name_en": "FT-Pelvis-Axial-Planes",
+				"group_contain_plean": [
+					0
+				]
+			},
+			{
+				"group_hase_id": 0,
+				"group_id": "PP21",
+				"group_name_ch": "早孕胸部水平切面",
+				"group_name_en": "FT-Chest-Axial-Planes",
+				"group_contain_plean": [
+					0,
+					0
+				]
+			},
+			{
+				"group_hase_id": 0,
+				"group_id": "PP22",
+				"group_name_ch": "早孕静脉导管频谱背景切面",
+				"group_name_en": "FT-DV-Doppler-Background-Planes",
+				"group_contain_plean": [
+					0
+				]
+			},
+			{
+				"group_hase_id": 0,
+				"group_id": "PP23",
+				"group_name_ch": "早孕头部水平切面",
+				"group_name_en": "FT-Head-Axial-Planes",
+				"group_contain_plean": [
+					0
+				]
+			},
+			{
+				"group_hase_id": 0,
+				"group_id": "PP24",
+				"group_name_ch": "早孕胸部上肢水平切面",
+				"group_name_en": "FT-Chest-UL-Axial-Planes",
+				"group_contain_plean": [
+					0
+				]
+			},
+			{
+				"group_hase_id": 0,
+				"group_id": "PP25",
+				"group_name_ch": "早孕腹部下肢水平切面",
+				"group_name_en": "FT-Abdomen-LL-Axial-Planes",
+				"group_contain_plean": [
+					0
+				]
+			},
+			{
+				"group_hase_id": 0,
+				"group_id": "PP26",
+				"group_name_ch": "早孕胎儿矢状切面",
+				"group_name_en": "FT-Sagittal-Planes",
+				"group_contain_plean": [
+					0,
+					0
+				]
+			},
+			{
+				"group_hase_id": 0,
+				"group_id": "PP27",
+				"group_name_ch": "脐带彩超切面",
+				"group_name_en": "Umbilical-Cord-Color-Planes",
+				"group_contain_plean": []
+			},
+			{
+				"group_hase_id": 0,
+				"group_id": "PP28",
+				"group_name_ch": "早孕期胎儿冠状切面",
+				"group_name_en": "FT-Coronal-Planes",
+				"group_contain_plean": [
+					0
+				]
+			},
+			{
+				"group_hase_id": 0,
+				"group_id": "PP29",
+				"group_name_ch": "胎儿附属结构切面",
+				"group_name_en": "Ancillary-Structure-Planes",
+				"group_contain_plean": []
+			},
+			{
+				"group_hase_id": 0,
+				"group_id": "PP30",
+				"group_name_ch": "宫腔下段矢状切面",
+				"group_name_en": "Lower-Uterine-Sagittal-Planes",
+				"group_contain_plean": []
+			},
+			{
+				"group_hase_id": 0,
+				"group_id": "PP31",
+				"group_name_ch": "耳朵长轴切面",
+				"group_name_en": "Ear-Longitudinal-Planes",
+				"group_contain_plean": []
+			},
+			{
+				"group_hase_id": 0,
+				"group_id": "PP32",
+				"group_name_ch": "臀部水平切面",
+				"group_name_en": "Hip-Axial-Planes",
+				"group_contain_plean": []
+			}
+		],
+		"1": [
+			{
+				"group_hase_id": 0,
+				"group_id": "PP1",
+				"group_name_ch": "头部水平切面",
+				"group_name_en": "Head-Axial-Planes",
+				"group_contain_plean": [
+					0,
+					0,
+					0
+				]
+			},
+			{
+				"group_hase_id": 0,
+				"group_id": "PP2",
+				"group_name_ch": "头部矢状切面",
+				"group_name_en": "Head-Sagittal-Planes",
+				"group_contain_plean": [
+					0,
+					0,
+					0
+				]
+			},
+			{
+				"group_hase_id": 0,
+				"group_id": "PP3",
+				"group_name_ch": "头部冠状切面",
+				"group_name_en": "Head-Coronal-Planes",
+				"group_contain_plean": [
+					0
+				]
+			},
+			{
+				"group_hase_id": 0,
+				"group_id": "PP4",
+				"group_name_ch": "颜面水平切面",
+				"group_name_en": "Face-Axial-Planes",
+				"group_contain_plean": [
+					0
+				]
+			},
+			{
+				"group_hase_id": 0,
+				"group_id": "PP5",
+				"group_name_ch": "颜面矢状切面",
+				"group_name_en": "Face-Sagittal-Planes",
+				"group_contain_plean": [
+					0
+				]
+			},
+			{
+				"group_hase_id": 0,
+				"group_id": "PP6",
+				"group_name_ch": "颜面冠状切面",
+				"group_name_en": "Face-Coronal-Planes",
+				"group_contain_plean": [
+					0
+				]
+			},
+			{
+				"group_hase_id": 0,
+				"group_id": "PP7",
+				"group_name_ch": "胸部水平切面",
+				"group_name_en": "Chest-Axial-Planes",
+				"group_contain_plean": [
+					0,
+					0,
+					0,
+					0,
+					0
+				]
+			},
+			{
+				"group_hase_id": 0,
+				"group_id": "PP8",
+				"group_name_ch": "腹部水平切面",
+				"group_name_en": "Abdomen-Axial-Planes",
+				"group_contain_plean": [
+					0,
+					0
+				]
+			},
+			{
+				"group_hase_id": 0,
+				"group_id": "PP10",
+				"group_name_ch": "胸腹冠状切面",
+				"group_name_en": "C-A-Coronal-Planes",
+				"group_contain_plean": [
+					0
+				]
+			},
+			{
+				"group_hase_id": 0,
+				"group_id": "PP11",
+				"group_name_ch": "盆腔水平切面",
+				"group_name_en": "Pelvis-Axial-Planes",
+				"group_contain_plean": [
+					0
+				]
+			},
+			{
+				"group_hase_id": 0,
+				"group_id": "PP12",
+				"group_name_ch": "盆腹矢状切面",
+				"group_name_en": "P-A-Sagittal-Planes",
+				"group_contain_plean": [
+					0
+				]
+			},
+			{
+				"group_hase_id": 0,
+				"group_id": "PP13",
+				"group_name_ch": "四肢纵切面",
+				"group_name_en": "Limbs-Longitudinal-Planes",
+				"group_contain_plean": [
+					0,
+					0,
+					0,
+					0
+				]
+			},
+			{
+				"group_hase_id": 0,
+				"group_id": "PP14",
+				"group_name_ch": "四肢横切面",
+				"group_name_en": "Limbs-Transverse-Planes",
+				"group_contain_plean": [
+					0
+				]
+			},
+			{
+				"group_hase_id": 0,
+				"group_id": "PP15",
+				"group_name_ch": "手",
+				"group_name_en": "Hand-Planes",
+				"group_contain_plean": [
+					0
+				]
+			},
+			{
+				"group_hase_id": 0,
+				"group_id": "PP16",
+				"group_name_ch": "足",
+				"group_name_en": "Foot-Planes",
+				"group_contain_plean": [
+					0
+				]
+			}
+		],
+		"2": [
+			{
+				"group_hase_id": 0,
+				"group_id": "PP1",
+				"group_name_ch": "头部水平切面",
+				"group_name_en": "Head-Axial-Planes",
+				"group_contain_plean": [
+					0,
+					0,
+					0
+				]
+			},
+			{
+				"group_hase_id": 0,
+				"group_id": "PP2",
+				"group_name_ch": "头部矢状切面",
+				"group_name_en": "Head-Sagittal-Planes",
+				"group_contain_plean": [
+					0,
+					0,
+					0
+				]
+			},
+			{
+				"group_hase_id": 0,
+				"group_id": "PP3",
+				"group_name_ch": "头部冠状切面",
+				"group_name_en": "Head-Coronal-Planes",
+				"group_contain_plean": [
+					0
+				]
+			},
+			{
+				"group_hase_id": 0,
+				"group_id": "PP4",
+				"group_name_ch": "颜面水平切面",
+				"group_name_en": "Face-Axial-Planes",
+				"group_contain_plean": [
+					0
+				]
+			},
+			{
+				"group_hase_id": 0,
+				"group_id": "PP5",
+				"group_name_ch": "颜面矢状切面",
+				"group_name_en": "Face-Sagittal-Planes",
+				"group_contain_plean": [
+					0
+				]
+			},
+			{
+				"group_hase_id": 0,
+				"group_id": "PP6",
+				"group_name_ch": "颜面冠状切面",
+				"group_name_en": "Face-Coronal-Planes",
+				"group_contain_plean": [
+					0
+				]
+			},
+			{
+				"group_hase_id": 0,
+				"group_id": "PP7",
+				"group_name_ch": "胸部水平切面",
+				"group_name_en": "Chest-Axial-Planes",
+				"group_contain_plean": [
+					0,
+					0,
+					0,
+					0,
+					0
+				]
+			},
+			{
+				"group_hase_id": 0,
+				"group_id": "PP8",
+				"group_name_ch": "腹部水平切面",
+				"group_name_en": "Abdomen-Axial-Planes",
+				"group_contain_plean": [
+					0,
+					0
+				]
+			},
+			{
+				"group_hase_id": 0,
+				"group_id": "PP10",
+				"group_name_ch": "胸腹冠状切面",
+				"group_name_en": "C-A-Coronal-Planes",
+				"group_contain_plean": [
+					0
+				]
+			},
+			{
+				"group_hase_id": 0,
+				"group_id": "PP11",
+				"group_name_ch": "盆腔水平切面",
+				"group_name_en": "Pelvis-Axial-Planes",
+				"group_contain_plean": [
+					0
+				]
+			},
+			{
+				"group_hase_id": 0,
+				"group_id": "PP12",
+				"group_name_ch": "盆腹矢状切面",
+				"group_name_en": "P-A-Sagittal-Planes",
+				"group_contain_plean": [
+					0
+				]
+			},
+			{
+				"group_hase_id": 0,
+				"group_id": "PP13",
+				"group_name_ch": "四肢纵切面",
+				"group_name_en": "Limbs-Longitudinal-Planes",
+				"group_contain_plean": [
+					0,
+					0,
+					0,
+					0
+				]
+			},
+			{
+				"group_hase_id": 0,
+				"group_id": "PP14",
+				"group_name_ch": "四肢横切面",
+				"group_name_en": "Limbs-Transverse-Planes",
+				"group_contain_plean": [
+					0
+				]
+			},
+			{
+				"group_hase_id": 0,
+				"group_id": "PP15",
+				"group_name_ch": "手",
+				"group_name_en": "Hand-Planes",
+				"group_contain_plean": [
+					0
+				]
+			},
+			{
+				"group_hase_id": 0,
+				"group_id": "PP16",
+				"group_name_ch": "足",
+				"group_name_en": "Foot-Planes",
+				"group_contain_plean": [
+					0
+				]
+			}
+		]
+	}
+}

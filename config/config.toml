@@ -1,0 +1,84 @@
+# HTTP Server.
+[server]
+    Domain      = "http://192.168.1.189:9006/"  # 本地服务，用于配置资源全路径
+	Address     = ":9006"
+	ServerRoot  = "public"
+#    SearchPaths = ["D://case//"]            # 配置静态文件服务器，用于qc远程质控
+	ServerAgent = "aiyun_local_srv"
+    Debug       = true
+#    AccessLogEnabled    = true
+#    graceful            = true              # 是否开启平滑重启特性，开启时将会在本地增加10000的本地TCP端口用于进程间通信。默认false
+#    gracefulTimeout     = 2                 # 父进程在平滑重启后多少秒退出，默认2秒。若请求耗时大于该值，可能会导致请求中断
+    Version             = "PAICS Backstage Local V_1.0.0"
+    maxHeaderBytes      = "20KB"             # 允许请求头最大字节数
+    clientMaxBodySize   = "100MB"            # 允许请求体最大字节数（上传限制）
+    [server.qc_server]
+        Domain          = "http://192.168.1.189:9006/"  # 本地服务，用于配置资源全路径
+        Address         = ":9007"
+        ServerRoot      = "public"
+
+# 云服务接口地址
+[cloud_server]
+    BaseUrl = "http://192.168.1.189:9005/api/"
+
+# Database.
+[database]
+    type    = "pgsql"
+    host    = "127.0.0.1"
+    port    = "5432"
+    user    = "aiyunji123"
+    pass    = "aiyunji123"
+    name    = "aiyun_local"
+    sslmode = "sslmode"
+    prefix  = "lpm_"
+    debug   = true
+    default_user = "postgres"
+    default_pass = "postgres"
+    # Database logger.
+    [database.logger]
+        Path   = "./log/sql"
+        Level  = "all"
+        Stdout = true
+
+# Redis.
+[redis]
+    open    = true #是否开启redis缓存， 若不开启使用本服务进程内存
+    default = "127.0.0.1:6379,1?idleTimeout=20&maxActive=100"
+
+# Logger.
+[logger]
+    Path    = "./log/log"
+    Level   = "all"
+    Stdout  = true
+    Expire  = 3  # 单位/天，日志存活时间，到期后自动删除
+
+# Jwt.
+[jwt]
+    expires = 7200              # 过期时间 单位秒
+    sign    = "aiyun_local_srv"    # 秘钥rou
+
+#阿里云对象存储
+[AliOSS]
+    region          = "chengdu"
+    accessKeyId     = "LTAI5t8xtAp1pqymYbC5zqid"
+    accessKeySecret = "OfD1IXqghhNKDzVRTne6Xjl2hmecS2"
+    bucket          = "umi-sinbook-cn"
+    secure          = false
+    endpoint        = "oss-cn-chengdu.aliyuncs.com"
+
+
+#阿里云短信
+[AliSMS]
+    accessKeyId     = "LTAI4FzkincM1m4ZefnX7CKi"
+    accessKeySecret = "LLK0msb9gLMeBoex0gpoEZirgHePt1"
+    endpoint        = "dysmsapi.aliyuncs.com"
+
+# 远程质控相关配置
+[qc]
+    expires = 7200                    # 过期时间 单位秒
+    sign    = "aiyun_local_qc_srv"    # 秘钥rou
+
+#病例相关配置
+[case]
+    LabelCount = 5  #单个病例可关联标签数量限制
+
